@@ -12,4 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-var reverseMap = require('./ReverseMapper')
+var emojis = require('emojilib').lib
+
+// reverse map the descriptive keywords to the emojis
+var reverseMap = {}
+for (const [key, value] of Object.entries(emojis)) {
+    var keywords = value["keywords"]
+    for (const keyword of keywords) {
+        reverseMap[keyword] = reverseMap[keyword] || []
+        reverseMap[keyword].push(key)
+    }
+}
+
+module.exports = reverseMap
