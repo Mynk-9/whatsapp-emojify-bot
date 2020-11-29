@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-emojify-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "emojilib": "^2.4.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mynk-9/whatsapp-emojify-bot.git"
+  },
+  "author": "Mayank Mathur",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Mynk-9/whatsapp-emojify-bot/issues"
+  },
+  "homepage": "https://github.com/Mynk-9/whatsapp-emojify-bot#readme"
+}
